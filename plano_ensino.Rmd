@@ -43,7 +43,6 @@ knitr::opts_chunk$set(echo = TRUE)
         - editor, console, Environment, files, Plots, Viewer, Packages, help
     + Configuração
     + projetos
-    + 
     + autocompletar
     + snippets
     + addins
@@ -51,12 +50,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 4. Introdução R
 
+    + Buscando ajuda
+        + help
+        + rstudio community https://community.rstudio.com/
+        + Curso-R https://discourse.curso-r.com/
+        + google/stackoverflow
+        + #Rstats
     + base R x tidyverse
     + tipos atômicos:
         + números (inteiros e double)
         + texto (character)
         + lógicos
         + NA e NULL
+        + ? fatores e datas
     + operadores
     + variáveis
     + funções
@@ -64,6 +70,8 @@ knitr::opts_chunk$set(echo = TRUE)
     + listas
     + data.frame/tibble
     + usando pacotes `library`
+    + `%>%` / `|>`
+    + `names()`, `str()`
 
 1. tarefas comuns
 
@@ -88,14 +96,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
     + tidydata
     + tibble
-    + select
+    + tidyselect
+        + `select`
+        + `everything`
+        + `all_of`/`any_of`
+        + `starts_with`/`ends_with`/`contains`
+        + `where`
+        + operators (`:`, `!`, `c()`, `-`)
     + dplyr
-        + mutate
-        + summarise
-        + group_by
-        + across
-        + count
-        + case_when
+        + head/tail
+        + filter/slice
+        + `mutate`
+        + `summarise`
+        + `group_by`
+        + `across`
+        + `count`
+        + `case_when`
     + tidyr
         + pivot
         + separate
