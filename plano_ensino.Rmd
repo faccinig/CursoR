@@ -1,0 +1,148 @@
+---
+title: "Plano de Ensino"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Conteúdos
+
+1. R e Rstudio
+
+    - história
+    - Quem é quem
+    - Como buscar ajuda
+    - Recursos disponíveis
+
+2. instalação (workflows)
+
+    - CRAN R
+    - Rstudio
+    - MikteX
+    - Rtools
+    - git
+
+2.  R
+
+    - arquivos `.R`, `.Rmd`, `.RDS` e `.RDA`, `.RDATA`
+    - packages
+        - CRAN, Bioconductor, **github**
+    - o que é possível fazer
+        - shiny
+        - pdf
+        - html
+
+3.  Rstudio
+
+    + navegação/Panes
+        - editor, console, Environment, files, Plots, Viewer, Packages, help
+    + Configuração
+    + projetos
+    + 
+    + autocompletar
+    + snippets
+    + addins
+    + atalhos
+
+4. Introdução R
+
+    + base R x tidyverse
+    + tipos atômicos:
+        + números (inteiros e double)
+        + texto (character)
+        + lógicos
+        + NA e NULL
+    + operadores
+    + variáveis
+    + funções
+    + vetores
+    + listas
+    + data.frame/tibble
+    + usando pacotes `library`
+
+1. tarefas comuns
+
+    1. Lendo
+        + xlsx
+        + txt
+        + csv
+        + BIG
+        + ACCESS
+        + `.RDA`
+    1. Escrevendo
+        + xlsx
+        + csv
+        + `.RDA`
+        + ACCESS
+    1. Criar/alterar colunas - dplyr
+    1. Relatório
+        + knitr/rmarkdown
+        + markdown
+
+5. tidyverse
+
+    + tidydata
+    + tibble
+    + select
+    + dplyr
+        + mutate
+        + summarise
+        + group_by
+        + across
+        + count
+        + case_when
+    + tidyr
+        + pivot
+        + separate
+        + extract
+    + grammar of graphics (ggplot)
+        + aesthetics
+            + y,x
+            + color/fill
+            + size
+        + geoms
+            + geom_line
+            + geom_bar/col/histogram
+            + geom_point/jitter
+        + scales
+            + continuos/discrete
+        + themes
+            + title/subtitle/caption
+            + axis
+            + 
+    + outros
+        + stringr
+        + lubridate
+        + forcats
+
+1. base R
+
+    + subseting
+
+1. Funções
+
+    + escopo
+
+1. Controle de fluxo
+
+    + loop
+    + condicionais
+    + erro
+
+
+# conteúdos sem definição de onde devem ser apresentados
+
+    + Rstudio snipets
+
+
+    + Introdução ao git
+    
+        + o que é o git
+        + branch
+        + merge
+        + remote
