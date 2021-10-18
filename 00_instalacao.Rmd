@@ -1,0 +1,50 @@
+---
+title: "Instalação"
+author: "Guilherme Faccini"
+date: "13/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Objetivos
+
++ Descrever como se solicita a instalação do R e recursos associados
++ Entender o que é cada um deles e pra que servem
+
+
+# Recursos
+
+## O que é o R e Rstudio?
+
+O termo `R` é utilizado para descrever tanto a linguagem de programação quanto o software que o interpreta.  
+
+[Rstudio](www.rstudio.com) é atualmente o ambiente de desenvolvimento mais popular para trabalhar com o `R`. Ele facilita muito o trabalho de interagir com a linguagem e o software atraves de seu ambiente gráfico.  
+
+
+## MikTeX
+
+É o software utilizado pelo `R` para a geração de PDFs. Tu não vai precisar se preocupar com ele apenas instale que o `R` cuida do resto 
+
+## Workflows
+
+Para instalar os softwares solicite o workflow *Solicitação de Aplicativos e Sistemas (antigo PXHC02E)* com o tipo *PRODUTO FREE C/AUTORIZAÇÃO*. Eles estão descritos como **CRAN R FROM WINDOWS**, **MIKTEX** e **RSTUDIO DESKTOP**.  
+
+Após concluidos os workflows os softwares estarão disponíveis na **Central de software**, bastando instalar como os demais programas do banco.  
+
+Observação: o workflow deve ser solicitado para cada terminal que houver a necessidade de utilização.  
+
+### Atualizações
+
+Quando os softwares forem atualizados a atualização estará disponível na **Central de Software** sem a necessidade de novo workflow.  
+
+O *RStudio* será desinstalado e uma nova versão será instalada.  
+
+A nova versão do *R* será instalada sem a desinstalação da versão anterior. Permitindo que o usuário escolha qual versão deseja utilizar. Assim, se  nova versão apresentar algum BUG, ainda será possível rodar na versão que não apresenta problemas.
+
+#### Seleção da versão do *R*
+
+
+

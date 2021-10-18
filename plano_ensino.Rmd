@@ -51,27 +51,47 @@ knitr::opts_chunk$set(echo = TRUE)
 4. Introdução R
 
     + Buscando ajuda
-        + help
+        + help `?`, F1
         + rstudio community https://community.rstudio.com/
         + Curso-R https://discourse.curso-r.com/
         + google/stackoverflow
         + #Rstats
-    + base R x tidyverse
-    + tipos atômicos:
+    + Comentário `#`
+    + tipos atômicos (vetores):
         + números (inteiros e double)
         + texto (character)
         + lógicos
         + NA e NULL
         + ? fatores e datas
+    + variáveis/nomes
     + operadores
-    + variáveis
+        + atribuição
+            + `<-`, `->`, `<<-`, `=`
+        + aritmétricos
+            + `+`, `-`, `*`, `/`, `^`
+            + `%%`, `%/%`
+            + `%*%`
+        + Lógicos
+            + vetorizados `&` e `|`
+            + scalar `&&` e `||`
+        + comparação
+            + `==`, `!=`, `<`, `<=`, `>`, `>=`
+        + sequencia (`:`)
+            + `seq()`
+            + pi:6 # real
+            + 6:pi # integer
+        + Pipe
+            + `%>%` / `|>`
+        + namespace
+            + `::`, `:::`
     + funções
     + vetores
     + listas
     + data.frame/tibble
     + usando pacotes `library`
-    + `%>%` / `|>`
     + `names()`, `str()`
+    
+1. style guide
 
 1. tarefas comuns
 
@@ -94,6 +114,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 5. tidyverse
 
+    + base R x tidyverse
     + tidydata
     + tibble
     + tidyselect
@@ -147,9 +168,20 @@ knitr::opts_chunk$set(echo = TRUE)
 1. Controle de fluxo
 
     + loop
+        + lapply, sapply, vapply
+        + purrr::map_*
+        + for, while
     + condicionais
+        + `ifelse`, `case_when`
+        + `if`
     + erro
+        + `stop`
+        
+# atalhos
 
+    + executar código
+        + comando/seleção `ctrl+enter`
+        + 
 
 # conteúdos sem definição de onde devem ser apresentados
 
